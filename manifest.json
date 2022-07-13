@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Mayron Thomas Ceccon",
   "name": "Consultar Postagem Correios",
   "description": "Extensão para consultar de forma fácil e rápida as postagens dos Correios, utilizando o código da postagem",

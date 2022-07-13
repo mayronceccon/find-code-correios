@@ -5,8 +5,14 @@ function getCode(info, tab) {
     return;
   }
 
+  // chrome.tabs.create({  
+  //   url: "https://www.linkcorreios.com.br/?id=" + info.selectionText
+  // });
+
+  const html = 'data:text/html;base64,PGgxPk9sYSBtdW5kbzwvaDE+'
+
   chrome.tabs.create({  
-    url: "https://www.linkcorreios.com.br/?id=" + info.selectionText
+    url: html
   });
 }
 
