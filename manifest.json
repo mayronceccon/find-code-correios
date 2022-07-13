@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "minimum_chrome_version": "6",
+    "name": "Find code in correios",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "version": "1.0"
+}
