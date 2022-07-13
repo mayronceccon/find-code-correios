@@ -1,17 +1,19 @@
 {
-    "manifest_version": 2,
-    "background": {
-        "scripts": [
-            "background.js"
-        ]
-    },
-    "minimum_chrome_version": "6",
-    "name": "Find code in correios",
-    "permissions": [
-        "contextMenus",
-        "tabs",
-        "http://*/*",
-        "https://*/*"
-    ],
-    "version": "1.0"
+  "manifest_version": 3,
+  "version": "1.0",
+  "author": "Mayron Thomas Ceccon",
+  "name": "Consultar Postagem Correios",
+  "description": "Extensão para consultar de forma fácil e rápida as postagens dos Correios, utilizando o código da postagem",
+  "background": {
+    "service_worker": "index.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
 }

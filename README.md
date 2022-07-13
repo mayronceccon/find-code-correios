@@ -1,1 +1,3 @@
-https://stackoverflow.com/questions/13783500/context-menus-in-chrome-extensions
+# Consultar Postagem Correios
+
+Extensão para consultar de forma fácil e rápida as postagens dos Correios, utilizando o código da postagem.
