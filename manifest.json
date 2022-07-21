@@ -8,8 +8,7 @@
     "service_worker": "index.js"
   },
   "permissions": [
-    "contextMenus",
-    "tabs"
+    "contextMenus"
   ],
   "icons": {
     "16": "images/icon16.png",
